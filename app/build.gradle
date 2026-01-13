@@ -8,14 +8,31 @@ plugins {
 android {
     compileSdk 35
     defaultConfig {
-        applicationId 'org.traccar.manager'
+        applicationId 'gpslink.traccar.manager'
         minSdkVersion 21
         targetSdkVersion 35
         versionCode 42
         versionName '4.6'
         multiDexEnabled true
     }
-    namespace 'org.traccar.manager'
+    namespace 'gpslink.traccar.manager'
+
+    signingConfigs {
+        release {
+            storeFile file('E:/keystore/gpslinkusa.jks')
+            storePassword 'gpslinkusa@2026'
+            keyAlias 'Trackerkey'
+            keyPassword 'gpslinkusa@2026'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
 
     buildFeatures {
         flavorDimensions = ['default']

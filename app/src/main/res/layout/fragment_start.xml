@@ -32,7 +32,7 @@
         android:layout_marginTop="@dimen/spacing_normal"
         android:layout_marginStart="@dimen/spacing_normal"
         android:layout_marginLeft="@dimen/spacing_normal"
-        android:text="https://demo.traccar.org" />
+        android:text="https://track.gpslinkusa.com" />
 
     <TextView
         android:id="@+id/label_info"
@@ -45,15 +45,12 @@
 
     <Button
         android:id="@+id/button_start"
+        style="@style/AppButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/label_info"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/spacing_normal"
-        android:paddingStart="@dimen/spacing_normal"
-        android:paddingLeft="@dimen/spacing_normal"
-        android:paddingEnd="@dimen/spacing_normal"
-        android:paddingRight="@dimen/spacing_normal"
         android:text="@string/button_start" />
 
 </RelativeLayout>

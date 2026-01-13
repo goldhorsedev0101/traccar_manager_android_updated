@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night mode colors for better visibility on Samsung devices -->
+    <color name="button_background">#2e7d32</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_background_pressed">#1b5e20</color>
+    <color name="background_light">#121212</color>
+    <color name="background_dark">#121212</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+</resources>

@@ -6,6 +6,24 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
         <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+        <!-- Button styling for Samsung compatibility -->
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorPrimaryInverse">@color/text_primary_dark</item>
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
+    <!-- Explicit button style for better visibility on Samsung devices -->
+    <style name="AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
     </style>
 
 </resources>

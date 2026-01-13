@@ -4,5 +4,14 @@
     <color name="primary">#1a237e</color>
     <color name="primary_dark">#000051</color>
     <color name="accent">#2e7d32</color>
+    
+    <!-- Button colors for better visibility on Samsung devices -->
+    <color name="button_background">#2e7d32</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_background_pressed">#1b5e20</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_primary_dark">#FFFFFF</color>
 
 </resources>
