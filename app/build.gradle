@@ -8,21 +8,21 @@ plugins {
 android {
     compileSdk 35
     defaultConfig {
-        applicationId 'gpslink.traccar.manager'
+        applicationId 'com.ynvert.gpslink.manager'
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 42
-        versionName '4.6'
+        versionCode 43
+        versionName '4.7'
         multiDexEnabled true
     }
     namespace 'gpslink.traccar.manager'
 
     signingConfigs {
         release {
-            storeFile file('E:/keystore/gpslinkusa.jks')
-            storePassword 'gpslinkusa@2026'
-            keyAlias 'Trackerkey'
-            keyPassword 'gpslinkusa@2026'
+            storeFile file('../gpslink-release-key.jks')
+            storePassword 'GPSLink@Manager1'
+            keyAlias 'gpslink-key'
+            keyPassword 'GPSLink@Manager1'
         }
     }
 
