@@ -12,6 +12,7 @@
 6. Scroll down to **Your apps** section
 7. If you don't have an Android app registered:
    - Click **Add app** → Select **Android** icon
+   - 
    - Enter package name: `gpslink.traccar.manager`
    - Enter app nickname (optional): "Traccar Manager"
    - Click **Register app**
